@@ -1,0 +1,9 @@
+1. A module is a single Python file containing code, while a package is a collection of related modules organized in a directory.
+
+2. A module allows you to define functions, classes, and variables in one file, whereas a package helps manage large codebases by grouping multiple modules.
+
+3. A module is imported using import module_name, but a package is imported using import package_name.module_name.
+
+4. A module does not require any special files, while a package typically contains an __init__.py file to indicate it is a package (though in modern Python, it can be empty or omitted).
+
+5. A module is ideal for small, single-purpose code, while a package provides better organization for larger projects with multiple modules working together.
