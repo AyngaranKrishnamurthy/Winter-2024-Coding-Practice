@@ -1,0 +1,13 @@
+Abstraction is the process of hiding the internal implementation details of a class and exposing only the necessary functionality. 
+The goal of abstraction is to reduce complexity by providing a simplified interface and hiding the underlying implementation that may be unnecessary for the user.
+
+Two ways of Abstraction: 1. Abstract Classes, 2. Abstract Methods
+
+Key Concepts of Abstraction:
+
+Abstract Classes: These are classes that cannot be instantiated on their own. They are meant to be inherited by other classes. 
+Abstract classes can contain both abstract methods (which don't have an implementation) and regular methods (which have a complete implementation).
+
+Abstract Methods: These are methods that are declared in an abstract class but do not have any implementation. S
+ubclasses that inherit from the abstract class must implement these methods.
+
