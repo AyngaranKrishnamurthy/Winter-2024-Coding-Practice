@@ -1,0 +1,11 @@
+Encapsulation refers to the practice of bundling the data (attributes) and methods (functions) that operate on the data into a single unit or class. 
+It also involves restricting direct access to some of an object's components, which is typically done by making certain attributes or methods private (not accessible from outside the class) and providing public methods (getters and setters) to access or modify them.
+
+Key Concepts of Encapsulation:
+Private and Public Attributes:
+Public attributes are those that can be accessed directly from outside the class.
+Private attributes are those that are hidden from outside access. They are typically denoted with a double underscore prefix (__) in Python.
+Getters and Setters:
+Getters allow reading the value of private attributes.
+Setters allow modifying the value of private attributes in a controlled manner.
+Protecting Internal Data: Encapsulation helps protect an object's internal state by ensuring that it is modified only through specific, controlled interfaces.
